@@ -1,0 +1,58 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Fri Apr 28 09:56:55 2023"
+  rime_version: 1.5.3
+
+patch:
+  app_options/windowsterminal.exe:
+    ascii_mode: true 
+  app_options/mintty.exe:
+    ascii_mode: true
+  app_options/emacs.exe:
+    ascii_mode: true
+  "style/color_scheme": default # 应用的配色方案
+  "style/font_face": "KaiTi" # 应用的字体
+  "style/font_point": 13 # 字号大小
+  "style/label_font_point": 12
+  "style/label_font_face": "TimesNewRoman"
+  "style/horizontal": true # 候选栏横排显示
+  "style/inline_preedit": false # 隐藏打字栏
+  "style/display_tray_icon": false # 不显示托盘图标
+  "style/layout/spacing": 8 # 打字栏与候选栏的间距
+  "style/layout/border_width": 2 # 边框宽度
+  "style/layout/margin_x": 10 # 候选字左右边距
+  "style/layout/margin_y": 10 # 候选字上下边距
+  "style/layout/candidate_spacing": 10 # 候选字间隔
+  "style/layout/hilite_spacing": 3 # 序号和候选字之间的间隔
+  "style/layout/round_corner": 10 # 候选字背景色块圆角幅度
+  "style/layout/hilite_padding": 4 # 候选字背景色色块高度和打字栏未选择字背景色块高度 若想候选字背景色块无边界填充候选框，仅需其高度和候选字上下边距一致即可
+
+  "preset_color_schemes/default":
+    name: xfw
+    author: xfw
+    back_color: 0xFFF3D1
+    border_color: 0xF5FFB5
+    text_color: 0xFF8F1F
+    hilited_text_color: 0xFFB366
+    hilited_back_color: 0xDBDDC5
+    hilited_candidate_text_color: 0xFFA724
+    hilited_candidate_back_color: 0xFFECBF
+    candidate_text_color: 0xFFC59E
+    comment_text_color: 0xDD858A
+
+  # 配色方案名称(用于使用 建议英文)
+  "preset_color_schemes/Time_water":
+    name: 时光如水 # 名称 只用于阅读
+    author: 7e2hj # 作者 只用于阅读
+    text_color: 0x969483 # 打字栏除正在选择字外的字 字体颜色
+    back_color: 0xf2f2f2 # 打字栏与候选栏 背景色
+    border_color: 0xffccff # 边框颜色
+    label_color: 0xffffff  # 候选栏 序号颜色
+    candidate_text_color: 0x000000 # 候选栏 未候选字颜色
+    comment_text_color: 0xd28b26 # 候选栏 补充说明 字体颜色
+    hilited_text_color: 0x394bdd # 打字栏 正在选择的字 字体颜色
+    hilited_back_color: 0xf2f2f2 # 打字栏 正在选择的字 背景色
+    hilited_candidate_text_color: 0xff2288 # 候选栏 候选字颜色
+    hilited_candidate_back_color: 0xffccff # 候选栏 候选字背景色
